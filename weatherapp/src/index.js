@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+import WeatherApp from './components/weatherApp/WeatherApp';
+import './index.css';
+ReactDOM.render(
+    <WeatherApp />, 
+    document.getElementById('root')
+);
