@@ -34,7 +34,6 @@ export default function WeatherApp() {
     let dayOfWeek = daysOfWeek[date.getDay()];
     let day = date.getDate();
     let month = months[date.getMonth()];
-    let year = date.getFullYear();
 
     return `${dayOfWeek}, ${day} de ${month}`
   }
