@@ -7,9 +7,9 @@ export const SearchDiv = styled.div`
 
 export const Search = styled.input`
   width: 18vw;
-  min-width: 18vw;
+  min-width: 250px;
   height: 4vh;
-  min-height: 4vh;
+  min-height: 25px;
   border: 1px solid rgb(255, 255, 255, 0.25);
   border-radius: 4px;
   transition: all 0.5s ease-out;
@@ -40,9 +40,9 @@ export const Card = styled.div`
   flex-direction: column;
   align-items: center;
   height: 80vh;
-  min-height: 80vh;
+  min-height: 468px;
   width: 20vw;
-  min-width: 250px;
+  min-width: 260px;
   padding: 1vw;
   border-radius: 10px;
   box-shadow: 5px 5px 10px #333333;
@@ -96,4 +96,5 @@ export const DateDiv = styled.div`
 
 export const DateText = styled.p`
   font-size: 1.1em;
+  font-weight: 600;
 `;

@@ -1,5 +1,5 @@
 # WeatherAppReact
 
-Aplicativo de previsão do tempo com React
+Aplicativo simples de previsão do tempo com React para estudos front-end.
 
-Em desenvolvimento...
+API utilizada: https://openweathermap.org/api
