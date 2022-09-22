@@ -28,14 +28,8 @@ export default function WeatherApp() {
   }
 
   const dateBuilder = (date) => {
-    let months = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
-    let daysOfWeek = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"];
-
-    let dayOfWeek = daysOfWeek[date.getDay()];
-    let day = date.getDate();
-    let month = months[date.getMonth()];
-
-    return `${dayOfWeek}, ${day} de ${month}`
+    let text = date.toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo', weekday: 'long', day: 'numeric', month: 'long' });
+    return text
   }
 
   return (    
