@@ -46,7 +46,8 @@ export const Card = styled.div`
   padding: 1vw;
   border-radius: 10px;
   box-shadow: 5px 5px 10px #333333;
-  background-color: rgb(255, 255, 255, 0.25);
+  background-color: rgb(255, 255, 255, 0.10);
+  backdrop-filter: blur(5px);
 `;
 
 export const CityDiv = styled.div`
